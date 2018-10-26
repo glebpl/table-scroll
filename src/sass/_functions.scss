@@ -1,0 +1,3 @@
+@function prefixedClassName($cls, $prefix: "tblscr") {
+  @return "." + $prefix + "-" + $cls;
+}

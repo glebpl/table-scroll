@@ -1,0 +1,52 @@
+{
+  "name": "table-scroll",
+  "version": "1.0.0",
+  "description": "Pure js plugin to make scrollable table body",
+  "main": "dist/table-scroll.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "watch:build": "cross-env NODE_ENV=development webpack -w",
+    "start": "browser-sync start -p localhost:8000/table-scroll/demo -f demo dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glebpl/table-scroll.git"
+  },
+  "keywords": [
+    "scrollable",
+    "table"
+  ],
+  "author": "Gleb Plakhotnik",
+  "license": "ISC",
+  "homepage": "https://github.com/glebpl/table-scroll#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.4",
+    "browser-sync": "^2.26.3",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.7",
+    "node-sass": "^4.9.4",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  }
+}
