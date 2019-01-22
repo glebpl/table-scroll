@@ -17,7 +17,7 @@ const getScrollbarWidth = () => {
 };
 
 class TableScroll {
-    constructor(tableElement, options) {
+    constructor(tableElement) {
         this._el = {
             table: tableElement
             , container: null

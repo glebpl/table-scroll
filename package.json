@@ -1,6 +1,6 @@
 {
   "name": "table-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pure js plugin to make scrollable table body",
   "main": "dist/table-scroll.js",
   "files": [
